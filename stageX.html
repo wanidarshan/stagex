@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StageX</title>
+  <script src="https://cdn.tailwindcss.com">   </script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ["Playfair Display"],
+            body: ["Inter"],
+          },
+          colors: {
+            gold: "#D4AF37",
+            dark: "#0B0F1A",
+            card: "#111827",
+            muted: "#9CA3AF",
+            accent: "#8B5CF6",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+    <style>
+      span {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+      }
+
+      h1 {
+        font-family: "Rubik Gemstones", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .box {
+        text-shadow: 7px 9px 4px #ff0000;
+      }
+    </style>
+
+<body class="bg-card text-gray-200 font-body">
+  <header class="sticky top-0 z-50 bg-dark px-8 py-4 flex items-center gap-6 shadow-lg">
+    <h1 class="text-gold font-heading text-2xl box">StageX</h1>
+
+    <input type="search" placeholder="Search for movies,Consert... "
+      class="flex-1 bg-card text-sm px-5 py-2 rounded-full outline-none focus:ring-2 focus:ring-gold" />
+
+    <button class="border border-gold px-5 py-2 rounded-full hover:bg-gold hover:text-black transition">sign up
+      </style>
+    </button>
+    <h2 style="color: rgb(247, 252, 0)">or</h2>
+    <div>
+      <button class="border border-gold px-5 py-2 rounded-full hover:bg-gold hover:text-black transition">login
+      </button>
+    </div>
+  </header>
+  <section class="px-8 py-6 flex gap-6 text-sm border-b border-white/10">
+    <span class="text-gold cursor-pointer">All</span>
+    <span class="hover:text-gold cursor-pointer">Comedy</span>
+    <span class="hover:text-gold cursor-pointer">Movies</span>
+    <span class="hover:text-gold cursor-pointer">Conserts</span>
+    <span class="hover:text-gold cursor-pointer">Theatre</span>
+  </section>
+
+  <div class="px-6 py-10">
+    <div class="relative h-72 rounded-2xl overflow-hidden bg-black">
+      <img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2"
+        class="absolute inset-0 w-full h-full object-cover opacity-60" />
+      <div class="relative p-8 bo">
+        <h2 class="text-4xl font-heading">
+          Experience <span class="text-gold">Live Shows</span>
+        </h2>
+        <p class="mt-3 text-gray-300">Book concerts, comedy & more</p>
+        <button class="mt-6 bg-gold text-black px-6 py-2 rounded-2xl">
+          Book Now
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-6 py-3">
+    <h2 class="text-gold font-heading mb-2">Recommended For You</h2>
+    <div class="grid grid-cols-2 md:grid-cols-2 gap-2">
+      <!-- <video src="Dhurandhar_Official_Trailer_Ranveer_Singh_Aditya_Dhar_In_Cinemas_5th_December_2025_2160p.mp4 "
+        class="w-full h-auto" loading="lazy" controls audio poster="Annotation 2025-12-27 075834.png"></video> -->
+      <img src="Annotation 2025-12-27 075834.png" class="w-full h-auto object-cover" loading="lazy">
+      <img src="img.png.png" class="  h-auto w-full" loading="lazy">
+      <a href="/movies/dhurandhar/ET00452447" class="bwc__sc-1jgpgcm-4iSszaU">Dhurandhar(2025) </a>
+      <a href="/movies/avatar 3/ET00452447" class="bwc__sc-1jgpgcm-4 iSszaU">Avatar Ash And Fire(2025)</a>
+      <footer class="bg-dark  text-center py-4">
+        &copy; 2025-2026 StageX.com
+      </footer>
+</body>
+
+</html>
